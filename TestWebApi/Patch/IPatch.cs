@@ -1,4 +1,4 @@
-﻿namespace TestWebApi.Models
+﻿namespace TestWebApi.Patch
 {
     public interface IPatch
     {

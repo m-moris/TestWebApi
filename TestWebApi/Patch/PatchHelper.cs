@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace TestWebApi.Models
+namespace TestWebApi.Patch
 {
     public class PatchHelper
     {

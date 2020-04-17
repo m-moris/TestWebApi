@@ -62,21 +62,4 @@ namespace TestWebApi.Controllers
             return await Task.FromResult(req.Update(user));
         }
     }
-
-    public class PremiumUserRequest : UserUpdateRequest
-    {
-        public NestedResponse Nested { get; set; }
-
-    }
-
-    public class NestedResponse
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
-
-    public class PremiumUserResponse : UserResponse
-    {
-        public NestedResponse Nested { get; set; }
-    }
 }
