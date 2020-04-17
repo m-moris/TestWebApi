@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:TestWebApi.Models.UserCreateRequest">
+            <summary>
+            作成
+            </summary>
+        </member>
+        <member name="T:TestWebApi.Models.UserResponse">
+            <summary>
+            レスポンス
+            </summary>
+        </member>
+        <member name="T:TestWebApi.Models.UserUpdateRequest">
+            <summary>
+            部分更新
+            </summary>
+        </member>
+    </members>
+</doc>
